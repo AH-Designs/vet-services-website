@@ -1,2 +1,22 @@
 
 /*nav bar styling*/
+
+#main-nav{
+	height:110px;
+	background-color:$color-white;
+	margin-bottom:0;
+}
+
+.nav{
+	position:relative;
+	top:28px;
+	margin-right:0px;
+
+	
+}
+
+.nav li{
+	margin-left:8px;
+	margin-right:8px;
+
+}

@@ -1,21 +1,17 @@
 /*descriptive color variables*/ 
 
-$crayon-pink		:#ED4A62;
-$crayon-orange 		:#EF8C30;
-$highlight-white	:#ffffff;
-$night-black		:#000000;
-$crayon-yellow		:#CDD801;
+$basic-white	:#ffffff;
+$basic-grey		:#EFEFEF;
+$bright-orange	:#FD9941;
 
 
 
 
 /*function color variables*/
 
-$color-links		:$crayon-pink;
-$color-headers		:$crayon-orange;
-$color-main			:$night-black;
-$color-highlight	:$highlight-white;
-$brighten-yellow    :$crayon-yellow;
+$color-white		:$basic-white;
+$theme-grey			:$basic-grey;
+$theme-orange		:$bright-orange;
 
 
 
@@ -23,7 +19,6 @@ $brighten-yellow    :$crayon-yellow;
 /*font stacks variables*/
 
 $main-header-font	:'Permanent Marker', cursive;
-$nav-font	 		:'Open Sans Condensed', sans-serif;		
-$quote-font			:'Changa One', cursive;
+
 
 
