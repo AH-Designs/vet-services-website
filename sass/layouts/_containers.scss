@@ -25,22 +25,34 @@
 
 .main-content{
 
-	background-image:url("/images/cat-big-image.jpg");
+	
 	width:100%;
 	height:620px;
 	position:relative;
-	bottom:27px;
+	
 
 }
+ #index-content{
+	height:610px;
+	position:relative;
+	
+	margin-bottom:-28px;
+ }
 
 /*side div*/
 
 .side-div{
 	height:620px;
-	width:460px;
+	
 	background-color:$color-white;
 	opacity:0.5;
+	float:left; 
+	display:inline; 
+	width: 35%;
+	
 }
+
+
 
 .title-div{
 	display:block;
@@ -49,6 +61,37 @@
 	margin-right:auto;
 	position:relative;
 	top:150px;
+	
 
 }
+
+#index-side-div{
+	height:645px;
+}
+
+.title-div-about{
+	display:block;
+	width:250px;
+	float:right;
+	position:relative;
+	top:150px;
+	margin-right:40px;
+	
+
+}
+
+/*Second main div contianer with content*/
+
+.second-div{
+	
+	float:left; 
+	display:inline;
+	 width: 65%;
+	 
+}
+
+#services-side-div{
+	background-color:$theme-grey;
+}
+
 

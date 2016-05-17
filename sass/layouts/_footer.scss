@@ -1,1 +1,20 @@
 /*Footer styling*/
+
+footer{
+	background-color:$color-white;
+	height:90px;
+}
+
+.social-media-icons {
+
+	float:right;
+	position:relative;
+	top:33px;
+	right:70px;
+
+	li{
+	display:inline-block;
+	padding:7px;
+
+	}	
+}

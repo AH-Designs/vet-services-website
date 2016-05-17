@@ -8,5 +8,36 @@
 
 
 
-/*main image*/
 
+
+
+/*Main backgrounds*/
+
+.index-background{
+	
+ background-image: url("/images/cat-big-image.jpg");
+ 
+ repeat: no-repeat;
+ position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.services-background{
+	background-color:$basic-white;
+
+
+}
+
+.about-background{
+	background-image:url("/images/blue-vets-background.jpg");
+
+	repeat: no-repeat;
+ position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,3 +1,5 @@
+/*Main index.html title*/
+
 .title-one{
 	font-weight:bold;
 	margin-bottom:0px;
@@ -7,5 +9,46 @@
 .title-two{
 	margin-top:0px;
 	font-size:40px;
+	
 
+}
+
+/*Call us title in the heading */
+
+.call-us{
+	margin-bottom:0;
+	position:relative;
+	right:30px;
+}
+
+/*About paragraphs*/
+
+.about-paragraph-1, .about-paragraph-2{
+	width:90%;
+	height:160px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:140px;
+	color:$basic-white;
+}
+
+/*Services lists*/
+
+.services-list-1, .services-list-2{
+	width:35%;
+	margin-left:5%;
+	margin-right:5%;
+
+	float:left;
+	position:relative;
+	top:60px;
+	list-style-image: url("/images/arrow-bulletpoint.png");
+
+	.list-item{
+		margin-top:35px;
+	}
+	h5{
+		font-weight: bold;
+	}
 }
