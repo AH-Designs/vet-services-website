@@ -11,6 +11,9 @@
 	position:relative;
 	top:28px;
 	margin-right:0px;
+	@media only screen and (max-width: 1035px) {
+	right:40px;
+	}
 
 	
 }

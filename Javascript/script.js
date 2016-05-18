@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
 //Jquery for the carousel to automatically start
 
-$('#myCarousel').carousel({ interval: 10000 });
+$('#myCarousel').carousel({ interval: 9000 });
 
 
 });
