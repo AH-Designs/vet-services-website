@@ -8,6 +8,9 @@
 	@media only screen and (max-width: 1035px) {
 	font-size:33px;
 	}
+	@media only screen and (max-width: 903px) {
+	margin-left:20px;
+	}
 
 }
 
@@ -22,6 +25,28 @@
 	font-weight:bold;
 }
 
+/*Service title*/
+
+#services-title-one, #services-title-two, #about-title-one, #about-title-two{
+
+	@media only screen and (max-width: 1156px) {
+	font-size:31px;
+	}
+
+	@media only screen and (max-width: 906px) {
+	font-size:25px;
+	}
+
+	@media only screen and (max-width: 775px){
+	font-size:17px;
+	}
+} 
+
+#services-list-two{
+
+	margin-bottom:70px;
+}
+
 /*Index-paragraph*/
 
 
@@ -31,18 +56,49 @@
 	margin-bottom:0;
 	position:relative;
 	right:50px;
+	@media only screen and (max-width: 903px) {
+	right:0;
+
+	}
+	// @media only screen and (max-width: 768px) {
+	// position:relative;
+	// display:block;
+	// width:100%;
+	// margin-left:auto;
+	// margin-right:auto;
+
+
+	
 }
 
 /*About paragraphs*/
 
 .about-paragraph-1, .about-paragraph-2{
-	width:90%;
-	height:160px;
+	width:78%;
+
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
-	top:140px;
+	top:120px;
 	color:$basic-white;
+	left:60px;
+	padding-right:30px;
+	margin-bottom:30px;
+
+	@media only screen and (max-width: 890px) {
+	font-size:13px;
+	top:80px;
+	}
+
+	@media only screen and (max-width: 699px) {	
+	top:50px;
+	}
+
+		@media only screen and (max-width: 630px) {
+	font-size:10px;
+	left:45px;
+	}
+
 }
 
 /*Services lists*/

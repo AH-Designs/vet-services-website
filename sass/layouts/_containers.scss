@@ -11,13 +11,25 @@
 .contact-div{
 	background-color:$theme-grey;
 	height:30px;
+	@media only screen and (max-width: 767px) {
+	width:100%;
+	display:block;
+	}
 
 	.contact-p{
-
+	
 		color:$theme-orange;
 		float:right;
-		
 		margin-top:5px;
+		@media only screen and (max-width: 767px) {
+		display:block;
+		width:156px;
+		margin-right: auto;
+		margin-left: auto;
+		float: none;
+		padding-top:5px;
+
+		}
 	}
 }
 
@@ -59,13 +71,26 @@
 	top:30px;
 	}
 	/* in the middle of making it responsive in phone view*/
-	@media only screen and (max-width: 741px) {
-	width:100%;
-	margin-left:30px;
-	margin-right:30px;
+	@media only screen and (max-width: 903px) {
+	width:75%;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+	background-color:$theme-grey;
+	padding:20px;
 	}
 	p{
+
 		margin-top: 25px;
+		font-size: 13px;
+	@media only screen and (max-width: 903px) {
+		font-size: 15px;
+		width:80%;
+		margin-left:auto;
+		margin-right: auto;
+
+	}
 		}
 
 }
@@ -79,11 +104,12 @@
 	right:0;
 @media only screen and (max-width: 973px) {
 	position:block;	
-		}
+	}
 /* in the middle of making it responsive in phone view*/
-@media only screen and (max-width: 741px) {
+@media only screen and (max-width: 903px) {
 	position:relative;
 	width:100%;
+	margin-bottom:40px;
 	}
 }
 .title-div-about{
@@ -91,9 +117,11 @@
 	width:250px;
 	position:relative;
 	top:150px;
-
-	
-	margin-left:35%;
+	margin-left:25%;
+	width:288px;
+	@media only screen and (max-width: 563px){
+	margin-left:11%;
+	}
 
 }
 
@@ -106,7 +134,8 @@
 
 #services-side-div{
 	background-color:$theme-grey;
-}
+	height:100%;
+	}
 
 
 

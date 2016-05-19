@@ -6,8 +6,18 @@
 	background-color:$theme-orange;
 	color:$color-white;
 	border-radius:5px;
+	@media only screen and (max-width: 903px) {
+	width:197px;
+	
+	display:block;
+	margin:20px auto 0 auto;
+
+	}
 }
 
+.button-div{
+	width:100%;
+}
 
 
 /**********************FORM STYLING*********************/
