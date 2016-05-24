@@ -2,7 +2,10 @@
 
 .page-wrapper{
 
-	width:100%;
+	min-width:100%;
+  height:auto !important;
+  height:100%;
+  margin:0 auto -90px;
 	
 	
 }
@@ -16,19 +19,11 @@ html, body {
   height: 100%;
 }
 
-.page-wrapper {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -90px; 
+.footer, .push{
+  height:90px;
 }
 
-.page-wrapper:after {
-  content: "";
-  display: block;
+#stick-footer{
+  position:relative;
+  top:850px;
 }
-
-.footer, .page-wrapper:after {
-  height: 90px; 
-}
-
-

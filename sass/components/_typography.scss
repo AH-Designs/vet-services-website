@@ -39,13 +39,11 @@
 
 	@media only screen and (max-width: 775px){
 	font-size:17px;
+
 	}
 } 
 
-#services-list-two{
 
-	margin-bottom:70px;
-}
 
 /*Index-paragraph*/
 
@@ -113,6 +111,7 @@
 @media only screen and (max-width: 766px) {
 	width:50%;
 	
+	
 }
 	.list-item{
 		margin-top:35px;
@@ -122,6 +121,11 @@
 	}
 }
 
+@media only screen and (max-width: 766px) {
+	.services-list-2{
+			margin-bottom: 70px;
+		}
+}
 /*Bold span for styling*/
 span.bold{
 	font-weight:bold;
@@ -142,16 +146,10 @@ span.bold{
 	}
 }
 
-/*trying to center box on smaller devices*/
+
 #box-1, #box-2, #box-3, #box-4{
 	padding:30px;
-	@media only screen and (max-width: 903px){
-	width:100%;
-	margin-right:auto;
-	margin-left:auto;
-	display:block;
-	position:relative;
-	}
+	
 }
 
 
